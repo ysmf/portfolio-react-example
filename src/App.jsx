@@ -45,8 +45,8 @@ function App() {
           ".link",
         ]}
       />
-      <Navbar />
-      <Hero />
+      <Navbar/>
+      <Hero/>
       <Skills/>
       <Services/>
       <Portfolio/>

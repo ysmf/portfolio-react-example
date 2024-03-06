@@ -16,9 +16,8 @@ function Hero() {
               <span>I am a </span>
               <TypeAnimation
                 sequence={[
-                  // Same substring at the start will only be typed out once, initially
                   "full-stack",
-                  1000, // wait 1s before replacing "Mice" with "Hamsters"
+                  1000,
                   "Web developer.",
                   1000,
                 ]}
@@ -48,10 +47,10 @@ function Hero() {
               </li>
             </ul>
           </div>
-            
+
           <div>
             <Tilt scale={1.2} transitionSpeed={2500} tiltReverse={true}>
-              <div className={styles.hero_image}></div>
+                <div className={styles.hero_image}></div>
             </Tilt>
           </div>
         </div>
