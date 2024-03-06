@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
+import { FaFacebookF, FaGithub, FaLinkedinIn,  } from "react-icons/fa6";
 import { TypeAnimation } from "react-type-animation";
 import Tilt from "react-parallax-tilt";
 
@@ -10,8 +10,8 @@ function Hero() {
       <div className={styles.container}>
         <div className={styles.hero_content}>
           <div className={styles.hero_info}>
-            <p className={styles.text_1}>Greetings, tech enthusiast!</p>
-            <h3 className={styles.text_2}>Byte Slinger Dhamma</h3>
+            <p className={styles.text_1}>What's up Doc?</p>
+            <h3 className={styles.text_2}>Nattawat Kaeng-in</h3>
             <p className={styles.text_3}>
               <span>I am a </span>
               <TypeAnimation
@@ -26,8 +26,7 @@ function Hero() {
               />
             </p>
             <p className={styles.text_4}>
-              who crafted this online experience. Take a peek under the hood and
-              see what makes it tick.
+              With great power comes great responsibility
             </p>
             <ul className={styles.hero_social}>
               <li>

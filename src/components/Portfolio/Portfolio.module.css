@@ -1,8 +1,14 @@
+::before *  {
+    
+    background-color: #fddf97;
+}
+
 .port_con {
     max-width: 1170px;
     height: 900px;
     margin: 0 auto;
     overflow: hidden;
+    
 
     & .port_title {
         margin-top: 45px;

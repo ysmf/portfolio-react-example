@@ -1,17 +1,17 @@
 nav {
-    background-color: #8d38c9;
+    background-color: #364968;
     overflow: hidden;
     position: relative;
   
     & a {
-      color: white;
+      color: #fddf97;
     }
   
     .bars {
       position: absolute;
       top: 45px;
       right: 20px;
-      color: white;
+      color: #fddf97;
     }
   
     & .container {
@@ -48,7 +48,7 @@ nav {
       & .button {
         width: 100px;
         height: 35px;
-        background-color: white;
+        background-color: #fddf97;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -62,7 +62,7 @@ nav {
   
         a {
           text-decoration: none;
-          color: #8d38c9;
+          color: #364968;
           font-weight: bold;
         }
       }
@@ -100,7 +100,7 @@ nav {
     & .mobile_button {
       width: 100px;
       height: 35px;
-      background-color: white;
+      background-color: #fddf97;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -116,7 +116,7 @@ nav {
   
       a {
         text-decoration: none;
-        color: #8d38c9;
+        color: #364968;
         font-weight: bold;
       }
     }
