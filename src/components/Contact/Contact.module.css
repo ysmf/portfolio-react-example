@@ -88,3 +88,29 @@
       }
     }
   }
+
+  @media screen and (max-width: 480px) {
+    .contact_wrapper {
+      height: auto;
+  
+      & .contact_con {
+        flex-direction: column;
+  
+        & .contact_info,
+        .contact_form {
+          width: 100%;
+          padding: 20px;
+        }
+  
+        & .contact_form {
+          & input {
+            width: 100% !important;
+          }
+  
+          & .input_group {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
